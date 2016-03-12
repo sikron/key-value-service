@@ -1,0 +1,8 @@
+- assertions of parameters
+	- not null
+	- etc
+	- tests
+- stores should return error after teardown, when called
+    - hm, every method then throws a TeardownException? ugly!
+    - aop with aspect around every method? API still ugly!
+    - just leave it like this and say, that behaviour afterwards is non-deterministic
