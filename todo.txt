@@ -6,3 +6,6 @@
     - hm, every method then throws a TeardownException? ugly!
     - aop with aspect around every method? API still ugly!
     - just leave it like this and say, that behaviour afterwards is non-deterministic
+
+- the config-service depends on this key-value-service, but would it be possible for the key-value-service to get
+  its config also from the config-service?
